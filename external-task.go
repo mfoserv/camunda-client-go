@@ -235,6 +235,9 @@ type ValueInfo struct {
 	ObjectTypeName *string `json:"objectTypeName"`
 	// The serialization format used to store the variable.
 	SerializationDataFormat *string `json:"serializationDataFormat"`
+	FileName                string  `json:"filename"`
+	MimeType                string  `json:"mimetype"`
+	Encoding                string  `json:"encoding"`
 }
 
 // QueryComplete a query for Complete request
